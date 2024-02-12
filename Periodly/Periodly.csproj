@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Gradient4x.png" />
+    <None Remove="period queen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Gradient4x.png" />
+    <Resource Include="period queen.png" />
+  </ItemGroup>
+
+</Project>
