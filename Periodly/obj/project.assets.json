@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Uczen\\.nuget\\packages\\": {}
+    "C:\\Users\\uczen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Uczen\\source\\repos\\Periodly\\Periodly\\Periodly.csproj",
+      "projectUniqueName": "E:\\4_KLASA\\ADMIN_PANEL_PROJECT\\desktop-feature-login-register\\Periodly\\Periodly.csproj",
       "projectName": "Periodly",
-      "projectPath": "C:\\Users\\Uczen\\source\\repos\\Periodly\\Periodly\\Periodly.csproj",
-      "packagesPath": "C:\\Users\\Uczen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Uczen\\source\\repos\\Periodly\\Periodly\\obj\\",
+      "projectPath": "E:\\4_KLASA\\ADMIN_PANEL_PROJECT\\desktop-feature-login-register\\Periodly\\Periodly.csproj",
+      "packagesPath": "C:\\Users\\uczen\\.nuget\\packages\\",
+      "outputPath": "E:\\4_KLASA\\ADMIN_PANEL_PROJECT\\desktop-feature-login-register\\Periodly\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Uczen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\uczen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

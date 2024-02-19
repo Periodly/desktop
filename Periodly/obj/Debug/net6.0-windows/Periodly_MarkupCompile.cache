@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Uczen\source\repos\Periodly\Periodly\obj\Debug\net6.0-windows\
+E:\4_KLASA\ADMIN_PANEL_PROJECT\desktop-feature-login-register\Periodly\obj\Debug\net6.0-windows\
 Periodly
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Uczen\source\repos\Periodly\Periodly\App.xaml
-11407045341
+E:\4_KLASA\ADMIN_PANEL_PROJECT\desktop-feature-login-register\Periodly\App.xaml
+3110679502
 
-3-1233169557
+71362856419
 1941142463650
-MainWindow.xaml;
+AddUserPanel.xaml;AdminPanel.xaml;MainWindow.xaml;
 
 False
 

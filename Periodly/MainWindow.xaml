@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Periodly"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="850" MinHeight="500" MinWidth="850">
+        Title="Login Page" Height="500" Width="850" MinHeight="500" MinWidth="850">
     <Window.Background>
         <ImageBrush ImageSource="/Gradient4x.png"></ImageBrush>
     </Window.Background>
@@ -45,9 +45,9 @@
                 </Grid.RowDefinitions>
 
                 <Label FontWeight="Bold" FontSize="32" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="1" Grid.Column="1">Admin Panel Login</Label>
-                <TextBox Margin="5" FontSize="20" Grid.Row="2" Grid.Column="1" MaxHeight="45" BorderBrush="{x:Null}" Background="#FFE2E2E2"/>
-                <PasswordBox Margin="5" FontSize="20" Grid.Row="3" Grid.Column="1" MaxHeight="45" BorderBrush="{x:Null}" Background="#FFE2E2E2"/>
-                <Button Margin="5" Width="100" FontWeight="SemiBold" HorizontalAlignment="Left" Grid.Row="4" Grid.Column="1" MaxHeight="45" FontSize="20" Background="#FFB7B7B7" BorderBrush="{x:Null}">Login</Button>
+                <TextBox x:Name="loginTB" Margin="5" FontSize="20" Grid.Row="2" Grid.Column="1" MaxHeight="45" BorderBrush="{x:Null}" Background="#FFE2E2E2"/>
+                <PasswordBox x:Name="passwordPB" Margin="5" FontSize="20" Grid.Row="3" Grid.Column="1" MaxHeight="45" BorderBrush="{x:Null}" Background="#FFE2E2E2"/>
+                <Button x:Name="loginBtn" Margin="5" Width="100" FontWeight="SemiBold" HorizontalAlignment="Left" Grid.Row="4" Grid.Column="1" MaxHeight="45" FontSize="20" Background="#FFB7B7B7" BorderBrush="{x:Null}" Click="loginBtn_Click">Login</Button>
             </Grid>
         </Grid>
     </Grid>
