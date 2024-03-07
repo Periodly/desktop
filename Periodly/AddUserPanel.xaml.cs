@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -57,6 +57,13 @@ namespace Periodly
                     MessageBox.Show("An error occurred: " + ex.Message);
                 }
             }*/
+        }
+
+        private void Back_To_Users_Button_Click(object sender, RoutedEventArgs e)
+        {
+            AdminPanel adminPanel = new AdminPanel();
+            adminPanel.Show();
+            this.Close();
         }
     }
 }
